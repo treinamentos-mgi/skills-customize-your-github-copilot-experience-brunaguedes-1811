@@ -72,6 +72,13 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "testing-fastapi-api",
+      "title": "Testing a FastAPI API with pytest",
+      "description": "Escreva testes automatizados com pytest e TestClient para verificar os endpoints da API de livros.",
+      "path": "assignments/testing-fastapi-api",
+      "dueDate": "2026-11-25"
     }
   ]
 }
