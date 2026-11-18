@@ -1,19 +1,40 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Hangman Game
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Construa um jogo da Forca em Python para praticar manipulação de strings, loops, condicionais, entrada de dados e seleção aleatória. O jogador deverá revelar uma palavra oculta antes de esgotar as tentativas disponíveis.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Preparar a palavra e o progresso do jogo
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Use a lista de palavras fornecida no código inicial para selecionar uma palavra secreta aleatoriamente e prepare a exibição do progresso para que o jogador possa acompanhar as letras reveladas.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra de uma lista predefinida.
+- Mostrar cada letra ainda não adivinhada como um espaço em branco, por exemplo, `_ _ _ _`.
+- Atualizar o progresso para revelar todas as ocorrências de uma letra correta.
+
+### 🛠️ Implementar os palpites e o fim da partida
+
+#### Descrição
+Crie o loop principal que recebe palpites de letras, atualiza o estado do jogo e encerra a partida quando o jogador adivinhar a palavra ou não tiver mais tentativas.
+
+#### Requisitos
+O programa concluído deve:
+
+- Solicitar palpites de letras ao jogador.
+- Rastrear e exibir quantas tentativas incorretas ainda restam.
+- Encerrar a partida quando a palavra for adivinhada ou as tentativas incorretas se esgotarem.
+- Exibir uma mensagem de vitória ou derrota ao final da partida.
+
+Exemplo de progresso para uma palavra de quatro letras:
+
+```text
+_ _ _ _
+p _ t _
+```
